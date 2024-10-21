@@ -1,0 +1,35 @@
+.theme-toast {
+  // @extend .primary-background;
+background-color: #333; /* Background color of the toast */
+color: #fff; /* Text color */
+font-size: 16px; /* Text size */
+font-weight: bold; /* Text weight */
+border-radius: 8px; /* Rounded corners */
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow */
+padding: 20px;
+  // @extend .primary-text-1;
+  // @extend .primary-border;
+}
+
+.Toastify__toast-theme--light {
+  background-color: #000000 !important;
+  color: #fc0202 !important;
+}
+
+.Toastify__close-button {
+  color: #000000 !important;
+}
+
+// .react-tel-input .form-control {
+//     @extend .primary-background;
+// }
+
+.pwa-update-screen {
+  // padding: 3rem;
+  text-align: center;
+}
+
+body{
+// padding:0px !important;
+overflow: auto !important;
+}

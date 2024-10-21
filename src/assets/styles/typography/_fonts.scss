@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+@font-face {
+    font-family: 'univerze-font';
+    src: local('Quicksand-Regular'),
+        url('../../fonts/Quicksand-Regular.ttf') format('woff'),
+        url('../../fonts/Quicksand-Regular.ttf') format('woff2'),
+        url('../../fonts/Quicksand-Regular.ttf') format('embedded-opentype'),
+        url('../../fonts/Quicksand-Regular.ttf') format('truetype'),
+        url('../../fonts/Quicksand-Regular.ttf') format('svg');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'univerze-font';
+    src: local('Quicksand-Medium'),
+        url('../../fonts/Quicksand-Medium.ttf') format('woff'),
+        url('../../fonts/Quicksand-Medium.ttf') format('woff2'),
+        url('../../fonts/Quicksand-Medium.ttf') format('embedded-opentype'),
+        url('../../fonts/Quicksand-Medium.ttf') format('truetype'),
+        url('../../fonts/Quicksand-Medium.ttf') format('svg');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'univerze-font';
+    src: local('Quicksand-SemiBold'),
+        url('../../fonts/Quicksand-SemiBold.ttf') format('woff'),
+        url('../../fonts/Quicksand-SemiBold.ttf') format('woff2'),
+        url('../../fonts/Quicksand-SemiBold.ttf') format('embedded-opentype'),
+        url('../../fonts/Quicksand-SemiBold.ttf') format('truetype'),
+        url('../../fonts/Quicksand-SemiBold.ttf') format('svg');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'univerze-font';
+    src: local('Quicksand-Bold'),
+        url('../../fonts/Quicksand-Bold.ttf') format('woff'),
+        url('../../fonts/Quicksand-Bold.ttf') format('woff2'),
+        url('../../fonts/Quicksand-Bold.ttf') format('embedded-opentype'),
+        url('../../fonts/Quicksand-Bold.ttf') format('truetype'),
+        url('../../fonts/Quicksand-Bold.ttf') format('svg');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'univerze-font';
+    src: local('Quicksand-Light'),
+        url('../../fonts/Quicksand-Light.ttf') format('woff'),
+        url('../../fonts/Quicksand-Light.ttf') format('woff2'),
+        url('../../fonts/Quicksand-Light.ttf') format('embedded-opentype'),
+        url('../../fonts/Quicksand-Light.ttf') format('truetype'),
+        url('../../fonts/Quicksand-Light.ttf') format('svg');
+    font-weight: 300;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'univerze-font', 'Open Sans';
+
+    // &.dark {
+    //     font-weight: 350;
+
+    //     img {
+    //         filter: brightness(0.8) contrast(1.2);
+    //     }
+
+    //     background-color: #16151A;
+    //     color: rgba(173, 173, 173, 0.75);
+
+    //     .primary-text-75 {
+    //         color: rgba(173, 173, 173, 0.75);
+    //     }
+
+    //     .primary-text-1 {
+    //         color: #ffffff;
+    //     }
+
+    //     .primary-text-45 {
+    //         color: rgba(173, 173, 173, 0.45);
+    //     }
+
+    //     .primary-background {
+    //         // background-color: #16151A;
+    //         background-color: #000000;
+
+    //     }
+
+    //     .secondary-background {
+    //         // background-color: #000000;
+    //         background-color: #16151A;
+    //     }
+
+    //     .primary-border {
+    //         border: 1px solid rgba(59, 59, 59, 1);
+    //     }
+    // }
+
+    // &.light {
+    //     background-color: #ffffff;
+    //     color: rgba(10, 44, 63, 0.75);
+
+    //     .primary-text-75 {
+    //         color: rgba(10, 44, 63, 0.75);
+    //     }
+
+    //     .primary-text-1 {
+    //         color: rgba(10, 44, 63, 1);
+    //     }
+
+    //     .primary-text-45 {
+    //         color: rgba(10, 44, 63, 0.45);
+    //     }
+
+    //     .primary-background {
+    //         background-color: #ffffff;
+    //     }
+
+    //     .secondary-background {
+    //         background-color: #f7f7f7;
+    //     }
+
+    //     .primary-border {
+    //         border: 1px solid rgba(17, 13, 63, .08);
+    //     }
+    // }
+
+    // @include respond(phone) {
+    //     font-size: 13px;
+    // }
+}
+
+.fs-13 {
+    font-size: 13px;
+}

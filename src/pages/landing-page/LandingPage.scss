@@ -1,0 +1,126 @@
+@import "/src/assets/styles/abstracts/variables";
+    
+    .wel{
+        padding-top: 5%;
+        text-align: center;
+        font-size:x-large ;
+        font-weight: bolder;
+        position: relative;
+        width: 100%;
+        height:20%;
+    }
+    
+    .auth {
+        position: relative;
+        left: 30%;
+        width: 40%;
+        height: 70%;
+        border-radius: 30%;
+        border:2px solid #000000;
+        background-color:  rgb(215, 140, 78); 
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    
+    .lgsn{
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        // top: 8%;
+        // left: 15%;
+        height: 20%;
+        width: 70%;
+        border-radius: 35%;
+        border:2px solid #000000;
+        background-color:rgb(247, 192, 146);
+    }
+    
+    .b {
+        display: flex;
+    width: 50%;
+    height: 80%;
+    border-radius: 35%;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.b.active{
+    background-color:  rgb(215, 140, 78);
+}
+
+.form-fields{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    // top: 10%;
+    // left: 15%;
+    width: 70%;
+    background-color: rgb(247, 192, 146); 
+    height: 50%;
+    // border:2px solid #000000;
+    border-radius: 15%;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.form-fields *{
+    width: 60%;
+    height: 30%;
+    text-align: center;
+
+
+}
+
+.but{
+    position: relative;
+    display: flex;
+    width: 30%;
+    height: 12%;
+    background-color: rgb(247, 192, 146);
+    border:2px solid #000000;
+    border-radius: 20%;
+    justify-content: center;
+    font-weight: bolder;
+    align-items: center;
+    cursor: pointer;
+}
+
+.input-field {
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+        width: 80%;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(247, 192, 146);
+        
+    }
+    
+.input-field:focus {
+    border: none;
+    opacity: 70%; 
+}
+
+.auth-error{
+    color: #ff0101;
+}
+
+
+
+
+
+
+
+
+
+
+
+
