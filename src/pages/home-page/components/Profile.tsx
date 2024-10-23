@@ -50,7 +50,7 @@ const Profile = (props: any) => {
 
         let response: any = await httpService("http://localhost:6005/wexa","/user").PATCH(formData)
         if(response.apiResponse.data.success){
-            props.setUserDetails(response.apiResponse.data.data)
+            props.setUserDetails({id: props.userDetails.id, name: name, email: email, phone: phone, url: response.apiResponse.data.url ? response.apiResponse.data.url : props.userDetails.url, last_log_in: props.userDetails.last_log_in})
             setError(response.apiResponse.data.message)
             setErrorPopUp(true)
             setTimeout(()=>{setErrorPopUp(false)},2000)
